@@ -1,0 +1,212 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bordas {
+    width: 200%;
+    height: 600px;
+        display: flex;
+    align-items: center;
+    border: 2px solid #333333;
+  }
+
+  .retangulo-fora{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 500px;
+    background-color: rgb(235, 235, 235);
+  
+    border: 4px solid rgb(254, 211, 12);
+  }
+  
+  .text-deitado{
+    font-size: 16px;
+    color: white;
+font-weight: bold;
+    transform: rotate(-90deg);
+
+  }
+
+  .envasamento1{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 80px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(137, 137, 137);
+  }
+  
+  .envasamento2{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    width: 80px;
+    height: 350px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(137, 137, 137);
+  }
+
+  .retangulo {
+  width: 600px; 
+  height: 500px; 
+  position: relative;
+  background-color: rgb(191, 191, 191);
+  border: 4px solid rgb(254, 211, 12);
+  }
+
+  .balanca{
+    font-size: 16px;
+    color: white;
+font-weight: bold;
+}
+
+
+  .quadrado {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 260px; 
+    height: 60px; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(137, 137, 137);
+      border: 4px solid rgb(254, 211, 12);
+
+  }
+ 
+
+
+
+  .quadrado2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 270px;
+    height: 80px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(137, 137, 137);
+  }
+
+  .quadrado2 img {
+    position: absolute;
+  top: -80px;
+  left: -30px;
+  width: 200px;
+  height: 160px;
+  }
+
+
+  .imagem {
+
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 90px; 
+  }
+  
+  
+  .imagem img {
+    width: 150px;
+    height: auto;
+
+  }
+
+
+
+.quadrado4{
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+   display: flex;
+   justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(137, 137, 137);
+}
+
+.quadrado5{
+  position: absolute;
+  top: 160px;
+  right: 10px;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+ display: flex;
+ justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(137, 137, 137);
+}
+
+
+.quadrado6{
+  position: absolute;
+  top: 220px;
+  right: 10px;
+  width: 130px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+ display: flex;
+ justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(137, 137, 137);
+}
+
+
+.quadrado7{
+  position: absolute;
+  top: 280px;
+  right: 10px;
+  width: 130px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+ display: flex;
+ justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(137, 137, 137);
+}
+
+.quadrado8{
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  align-items: center;
+  text-align: center;
+ display: flex;
+ justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(137, 137, 137);
+}
+
+
+
+
+
+
