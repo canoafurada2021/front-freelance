@@ -113,52 +113,95 @@ font-weight: bold;
   left: -30px;
   width: 200px;
   height: 160px;
+
   }
 
 
-  .imagem {
-
-    display: flex;
-    justify-content: center;
-    gap: 2px;
-    margin-top: 90px; 
+  .imagem figure {
+    text-align: center;
   }
-  
   
   .imagem img {
     width: 150px;
     height: auto;
-
   }
+  
+  .imagem figcaption {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  .imagem {
+    display: flex;
+    justify-content: start;
+    margin-top: 90px; 
+  }
+  
+  .imagem div {
+    text-align: center;
+  }
+
+  
+  .imagem img {
+    width: 130px;
+    height: auto;
+margin: 0;
+  }
+
+
+  .text-img{
+    font-size: 16px;
+    color: black;
+font-weight: bold;
+  }
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+ align-items: end;
+ margin-top: -160px;
+  }
+
+  .container figure {
+    text-align: center;
+  }
+  
+  .container img {
+    width: 55px;
+    height: auto;
+    margin: 0;
+  }
+  
 
 
 
 .quadrado4{
-    position: absolute;
-    top: 100px;
-    right: 10px;
-    width: 100px;
-    height: 50px;
-    align-items: center;
-    text-align: center;
-   display: flex;
-   justify-content: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    background-color: rgb(137, 137, 137);
+  width: 100px;
+  height: auto;
+  text-align: center;
+  margin-bottom: 10px;
 }
+.quadrado4 img {
+  width: 70px; /* Ajuste a largura da imagem conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
 
 .quadrado5{
   position: absolute;
-  top: 160px;
+  top: 170px;
   right: 10px;
   width: 100px;
-  height: 50px;
-  align-items: center;
-  text-align: center;
- display: flex;
- justify-content: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: rgb(137, 137, 137);
+  height: auto;
+ text-align: center;
+ margin-bottom: 10px; /* Adicione o espaçamento vertical */
+
+}
+
+.quadrado5 img{
+  width: 70px;
+  height: auto;
 }
 
 
@@ -168,12 +211,14 @@ font-weight: bold;
   right: 10px;
   width: 130px;
   height: 50px;
-  align-items: center;
-  text-align: center;
- display: flex;
- justify-content: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: rgb(137, 137, 137);
+text-align: center;
+margin-bottom: 20px; /* Adicione o espaçamento vertical */
+
+}
+
+.quadrado6 img{
+  width: 70px;
+  height: auto;
 }
 
 
@@ -183,13 +228,17 @@ font-weight: bold;
   right: 10px;
   width: 130px;
   height: 50px;
-  align-items: center;
-  text-align: center;
- display: flex;
- justify-content: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: rgb(137, 137, 137);
+text-align: center;
+margin-bottom: 10px; /* Adicione o espaçamento vertical */
+
 }
+
+
+.quadrado7 img{
+  width: 70px;
+  height: auto;
+}
+
 
 .quadrado8{
   width: 200px;
