@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeto Andi</title>
+  <title>Mapa Fundição</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 </head>
@@ -12,8 +11,13 @@
 <body>
   <div class="container-fluid">
     <div class="row">
+      <div class="col-3"></div>
+      <div class="col-3 clock">agora</div>
+      <div class="col-3 last_update">upd</div>
+      <div class="col-3"></div>
+    </div>
+    <div class="row">
       <div class="col-12 col-md-9 col-lg-7">
-
         <!-- Bordas pretas localizadas em volta do mapa-->
 
         <div class="bordas">
@@ -51,6 +55,10 @@
             </div>
             <div class="machine-5029">
               <p class="p-text"> 5029</p>
+              <div class="">
+                <span class="qtd bg-success counter">0</span>
+                <span class="qtd_nc bg-danger counter">0</span>
+              </div>
             </div>
             <div class="right-outside-cart">
               <p class="p-text"> Carrinho</p>
@@ -61,96 +69,366 @@
               </div>
               <div class="inside-rectangle-scale  rectangle-two">
                 <img src="images/im2.png" alt="Imagem">
-                <span class="balance">3002</span>
+                <span class="balance">3002</span><br>
+
               </div>
 
               <!--Toneis do centro -->
               <div class="image">
-                <figure>
+                <figure data-resource="3002">
                   <img src="images/img1.png" alt="Imagem">
-                  <figcaption class="text-general">3002</figcaption>
+                  <figcaption class="text-general">3002<span class='status off'></span></figcaption>
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
                 </figure>
-                <figure>
+                <figure data-resource="4002">
                   <img src="images/img1.png" alt="Imagem">
-                  <figcaption class="text-general">4002</figcaption>
+                  <figcaption class="text-general">4002 <span class='status off'></span></figcaption>
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
                 </figure>
-                <figure>
+                <figure data-resource="4001">
                   <img src="images/img1.png" alt="Imagem">
-                  <figcaption class="text-general">4001</figcaption>
+                  <figcaption class="text-general">4001<span class='status off'></span></figcaption>
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
                 </figure>
               </div>
 
               <!--Maquinas alinhadas ao canto esquerdo-->
               <div class="left-machines">
-                <figure>
+                <figure data-resource="4005">
                   <img src="images/maquina.png" alt="Imagem">
-                  <figcaption class="text-general">4005</figcaption>
+                  <figcaption class="text-general">4005<span class='status off'></span></figcaption>
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
                 </figure>
-                <figure>
+                <figure data-resource="4004">
                   <img src="images/maquina.png" alt="Imagem">
-                  <figcaption class="text-general">4004</figcaption>
+                  <figcaption class="text-general">4004<span class='status off'></span></figcaption>
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
                 </figure>
                 <div class="img-4011">
-                  <figure>
+                  <figure data-resource="4011">
                     <img src="images/maquina.png" alt="Imagem">
-                    <figcaption class="text-general">4011</figcaption>
+                    <figcaption class="text-general">4011<span class='status off'></span></figcaption>
+                    <div class="">
+                      <span class="qtd bg-success counter">0</span>
+                      <span class="qtd_nc bg-danger counter">0</span>
+                    </div>
                   </figure>
                 </div>
               </div>
 
               <!---Maquinas alinhadas ao centro-->
               <div class="central-machines">
-                <figure>
+                <figure data-resource="4006">
                   <img src="images/maquina.png" alt="Outra Imagem">
-                  <figcaption class="text-general">4006</figcaption>
+                  <figcaption class="text-general">4006<span class='status off'></span></figcaption>
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
                 </figure>
-                <figure>
+                <figure data-resource="4012">
                   <img src="images/maquina.png" alt="Outra Imagem">
-                  <figcaption class="text-general">4012</figcaption>
+                  <figcaption class="text-general">4012<span class='status off'></span></figcaption>
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
                 </figure>
-                <figure>
+                <figure data-resource="4017">
                   <img src="images/maquina.png" alt="Outra Imagem">
-                  <figcaption class="text-general">4017</figcaption>
+                  <figcaption class="text-general">4017<span class='status off'></span></figcaption>
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
                 </figure>
               </div>
 
               <!---Maquinas alinhadas a direita-->
               <div class="right-machines">
-                <figure>
+                <figure data-resource="4018">
                   <img src="images/maquina.png" alt="Imagem">
-                  <figcaption class="text-general">4018</figcaption>
+                  <figcaption class="text-general">4018<span class='status off'></span></figcaption>
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
                 </figure>
-                <figure>
+                <figure data-resource="4022">
                   <img src="images/maquina.png" alt="Imagem">
-                  <figcaption class="text-general">4022</figcaption>
+                  <figcaption class="text-general">4022<span class='status off'></span></figcaption>
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
                 </figure>
-                <figure>
+                <figure data-resource="4013">
                   <img src="images/maquina.png" alt="Imagem">
-                  <figcaption class="text-general">4013</figcaption>
+                  <figcaption class="text-general">4013<span class='status off'></span></figcaption>
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
                 </figure>
-                <figure>
+                <figure data-resource="4014">
                   <img src="images/maquina.png" alt="Imagem">
-                  <figcaption class="text-general">4014</figcaption>
+                  <figcaption class="text-general">4014<span class='status off'></span></figcaption>
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
                 </figure>
-                <figure>
+                <figure data-resource="4021">
                   <img src="images/maquina.png" alt="Imagem">
-                  <figcaption class="text-general">4021</figcaption>
+                  <figcaption class="text-general">4021<span class='status off'></span></figcaption>
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
                 </figure>
               </div>
             </div>
+
+
+            <!--- Carrinho que fica logo abaixo das maqúinas do canto direito-->
             <div class="lower-cart">
               <p class="p-text"> Carrinho</p>
             </div>
+
+
+            <!-- Grupo que contém o retângulo do molde da macharia, bancadas,
+              máquinas 1003,1002 e 1001, computador, e o molde da coquilha abaixo das máquinas
+            -->
+            <div class="rectangle-group">
+
+              <div class="square-carrinho">
+                <p class="p-text">Carrinho</p>
+              </div>
+
+              <div class="div-molde-macharia">
+                <div class="molde-macharia">
+                  <p class="text-rotate">molde da macharia</p>
+                </div>
+
+              </div>
+
+              <div class="rectangle">
+                <p class="p-text"> Bancada</p>
+
+
+              </div>
+              <div class="rectangle">
+                <p class="p-text"> Bancada</p>
+
+              </div>
+              <div class="rectangle">
+                <p class="p-text"> Bancada</p>
+
+              </div>
+
+
+              <div class="quadrado-group">
+
+                <div class="quadrado">
+                  <p class="p-text">1003
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
+                  </p>
+                </div>
+                <div class="quadrado">
+
+                  <p class="p-text">
+                    1002
+                  <div class="">
+
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
+                  </p>
+
+                </div>
+                <div class="quadrado">
+
+                  <p class="p-text">
+                    1001
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
+                  </p>
+
+                </div>
+
+                <div class="div-circule-and-computer">
+                  <div class="circle-and-computer"></div>
+                  <div class="computador">
+                    <p class="inclined-text">Computador</p>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="rectangle-coquilha">
+                <p class="p-text"> Moldes da coquilha</p>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="rectangle-left">
+              <p class="p-text"> Modelagem</p>
+
+            </div>
+
+
+
+
+
+            <!-- div que contém as maquinas 2001,2001, 2002 e 2002 logo abaixo da modelagem-->
+            <div class="square-group">
+
+              <div class="square-left">
+                <p class="p-text"> 2001
+                <div class="">
+                  <span class="qtd bg-success counter">0</span>
+                  <span class="qtd_nc bg-danger counter">0</span>
+                </div>
+                </p>
+
+              </div>
+
+              <div class="square-left">
+                <p class="p-text"> 2001
+                <div class="">
+                  <span class="qtd bg-success counter">0</span>
+                  <span class="qtd_nc bg-danger counter">0</span>
+                </div>
+
+                </p>
+
+              </div>
+              <div class="square-left">
+                <p class="p-text"> 2002
+
+                <div class="">
+                  <span class="qtd bg-success counter">0</span>
+                  <span class="qtd_nc bg-danger counter">0</span>
+                </div>
+                </p>
+
+              </div>
+              <div class="square-left">
+                <p class="p-text"> 2002
+
+                <div class="">
+                  <span class="qtd bg-success counter">0</span>
+                  <span class="qtd_nc bg-danger counter">0</span>
+                </div>
+                </p>
+
+              </div>
+
+            </div>
+
+            <!-- div responsável por armazenar os 3 quadrados azuis ligados
+            por conexões na cor cinza com bordas amarelas, juntamente
+             com o circulo alinhado ao lado direito
+            -->
+            <div class="square-group-blue">
+              <div class="square-blue"></div>
+
+              <div class="rectangle-square-group">
+                <div class="square-blue-rectangle"></div>
+
+                <div class="circle-right-aligned"></div>
+
+                <div class="rectangle-right-square-group"></div>
+
+
+                <div class="right-blue-square"></div>
+
+
+              </div>
+
+
+            </div>
+
+
+            <!--div responsável por armazenar o quadrado cinza e azul com bola azul 
+              no canto inferior esquerdo do mesmo-->
+            <div class="inner-gray-square-div">
+              <div class="inner-gray-square"></div>
+              <div class="square-with-circle">
+                <div class="circle"></div>
+
+              </div>
+            </div>
+
+
+            <!--div responsável por armazenar o armario e o cocho no canto inferior esquerdo-->
+            <div class="div-armario">
+              <div class="blue-square-div-armario"></div>
+              <div class="armario">
+                <p class="p-text"> Armario</p>
+              </div>
+
+              <div class="cocho">
+                <p class="p-text"> Cocho</p>
+
+              </div>
+
+            </div>
+
+            <!--- div responsável pela escada e pelo retangulo alinhado a direita dos moldes da coquilha-->
+            <div class="div-escada">
+
+              <img src="images/img-escada.png" alt="Imagem" class="escada">
+              <div class="molde-coquilha">
+                <p class="p-text">Moldes da coquilha</p>
+              </div>
+
+              <div class="rectangle-grey-coquil">
+
+              </div>
+            </div>
+
             <!--Maquinas alinhadas a direita e a coluna de maquinas na existente no canto direito-->
             <div class="right-machines-column">
-              <figure>
+              <figure data-resource="4015">
                 <img src="images/maquina.png" alt="Imagem">
-                <figcaption class="text-general">4015</figcaption>
+                <figcaption class="text-general">4015<span class='status off'></span></figcaption>
+                <div class="">
+                  <span class="qtd bg-success counter">0</span>
+                  <span class="qtd_nc bg-danger counter">0</span>
+                </div>
               </figure>
               <div class="img-4016">
-                <figure>
+                <figure data-resource="4016">
                   <img src="images/maquina.png" alt="Imagem">
-                  <figcaption class="text-general">4016</figcaption>
+                  <figcaption class="text-general">4016<span class='status off'></span></figcaption>
+                  <div class="">
+                    <span class="qtd bg-success counter">0</span>
+                    <span class="qtd_nc bg-danger counter">0</span>
+                  </div>
                 </figure>
               </div>
             </div>
@@ -159,5 +437,63 @@
       </div>
     </div>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    function atualizar_status_maquina() {
+      //$(`th[data-recurso_status`).addClass("desligada");
+      $.get("/API/pcp/", { ACAO: "LISTAR_STATUS_MAQUINAS" }, function (data) {
+        console.log(data);
+        if (data) {
+
+          let last_update = current_time();
+          $(".last_update").text(last_update);
+
+          $.each(data, function (k, v) {
+            let resource = $(`figure[data-resource='${v.codigo}']`);
+            let status = (v.status == "ligada" ? "on" : "off");
+            $(resource).find("span.status").removeClass("off").removeClass("on").addClass(status);
+            $(resource).find("span.qtd").text(v.boas);
+            $(resource).find("span.qtd_nc").text(v.ruins);
+
+
+          })
+        }
+      })
+    }
+
+    function current_time() {
+      var currentTime = new Date();
+      var hours = currentTime.getHours();
+      var minutes = currentTime.getMinutes();
+      var seconds = currentTime.getSeconds();
+
+      // Add leading zeros
+      hours = (hours < 10 ? "0" : "") + hours;
+      minutes = (minutes < 10 ? "0" : "") + minutes;
+      seconds = (seconds < 10 ? "0" : "") + seconds;
+
+      // Compose the string for display
+      var currentTimeString = hours + ":" + minutes + ":" + seconds;
+      return currentTimeString
+      //$(".clock").html(currentTimeString);
+    }
+    // 24 hour clock  
+    setInterval(function () {
+
+      let agora = current_time();
+      $(".clock").text(agora);
+
+    }, 1000);
+
+    $(document).ready(function () {
+      atualizar_status_maquina();
+
+      setInterval(atualizar_status_maquina, 5000);
+    })
+  </script>
 </body>
+
 </html>
